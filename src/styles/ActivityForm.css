@@ -1,0 +1,47 @@
+.activity-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  
+  }
+  .main {
+    margin-bottom: 100px;
+  }
+
+  .activity-form button {
+    background-color: green;
+  }
+
+  @media (max-width: 600px) {
+    .activity-form {
+      margin: 10px;
+    }
+  }
+ .go-to-dashboard {
+  background-color: green;
+  color: white;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+ }
+
+ .go-to-dashboard:hover {
+  background-color: darkgreen;
+  color: white;
+ }
+
+ @media (max-width: 600px) {
+  .go-to-dashboard {
+    width: 100px;
+    max-width: 100px;
+  }
+ }
+ 

@@ -1,0 +1,11 @@
+.activity-card {
+  width: 100%;
+  margin: 10px 0;
+}
+
+@media (min-width: 768px) {
+  .activity-card {
+    width: 90%;
+  }
+}
+  
